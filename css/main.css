@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+div#main-container {
+  width:600px;
+  position:relative;
+  margin:0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div#snake-board {
+  width:500px;
+  height: 500px;
+  margin:10px auto 0 auto;
+  border:1px solid #ccc;
+  position:relative;
+}
+
+div#score-board {
+  width:482px;
+  margin:0 auto 0 auto;
+  border:1px solid #ccc;
+  background:#eee;
+  font-weight:bold;
+  padding:10px;
+}
+
+div.cell {
+  position: absolute;
+  background-color: rgb(214, 214, 214);
+  border-radius:3px;
+}
+
+div.snake-cell {
+  background-color: #000;
+}
+
+div.snake-head-cell {
+  background:red;
+}
+
+div.fruit-cell {
+  background:green;
+}
